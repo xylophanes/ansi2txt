@@ -1,0 +1,14 @@
+0.2.3: Changed return codes to be bash compatible (normal exit returns 0, error returns 255).
+
+       Changed printf to fprintf(stderr, ... (errors) and fprintf(stdout, ... (transformed text)
+       to eliminate security problems from buffer overruns.
+
+       Improved code legibility for debugging and maintenence.
+
+       Changed int to int32_t to improve portability.
+
+0.2.2: Implemented ESC [ # d and ESC [ # e vertical cursor positioning
+       Corrected erase screen/line not clearing mode information correctly
+
+0.2.1: First Release
+

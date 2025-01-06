@@ -1,0 +1,22 @@
+                  ansi2txt
+
+This a cleaned up version of the C version of ansi2txt which was
+written by Emmet Spier
+
+Build
+-----
+
+To build ansi2txt simply make the binary:
+
+% make
+
+Check BINPATH and MANPATH in Makefile are suitable for your system.
+You will need root access (on a Linux system)
+
+Install
+-------
+
+To install :
+
+% make install
+
